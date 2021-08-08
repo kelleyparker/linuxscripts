@@ -1,0 +1,16 @@
+if [ -z $1 ]
+then
+	echo Hello! Choose the option you want from 1 or 2.
+	read CHOICE
+	echo You selected $CHOICE.
+elif [ $1 = 1 ]
+then
+	echo You selected 1.
+elif [ $1 = 2 ]
+then
+	echo You selected 2.
+fi
+
+# echo You have selected $CHOICE
+
+exit 0

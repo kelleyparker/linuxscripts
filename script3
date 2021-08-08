@@ -1,0 +1,11 @@
+#  Determine if argument is file or directory
+
+if [ -f $1 ]; then
+	echo $1 is a file
+elif [ -d $1 ]; then
+	echo $1 is a directory
+
+else
+	echo "idk what this is"
+fi
+exit 0
