@@ -1,0 +1,22 @@
+## Likely useless user-add create script
+echo Type the name of the user you want to create.
+read USER
+
+useradd $USER
+
+echo You have created the user: $USER
+
+echo Do you want to create any more users? [Y|y|Yes\yes]
+read RESPONSE
+
+
+
+if [ $RESPONSE = yes || Yes||y||Y ]; then
+	echo Type the name of the user you want to create.
+	read USER
+	useradd $USER
+else
+	echo Thanks for using the user script create program!
+fi
+
+exit 0
