@@ -1,0 +1,5 @@
+[ -z $1 ] && echo no argument provided
+
+echo ==================================
+
+ping -c 1 192.168.1.1023235 2>/dev/null || echo Node is not available
