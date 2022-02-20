@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -n "What would you like to eat from the menu today?"
 read menuChoice
 
