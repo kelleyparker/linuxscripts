@@ -1,3 +1,4 @@
+#!/bin/bash
 #  Determine if argument is file or directory
 
 if [ -f $1 ]; then
