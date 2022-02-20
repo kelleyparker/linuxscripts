@@ -12,5 +12,3 @@ elif [[ num1 -eq num2 ]]; then
 else
 	echo "Try again. This program shall terminate."
 fi
-[kparker@atlld-kparker bash]$ 
-
