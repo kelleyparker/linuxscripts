@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -z $1 ]
 then
 	echo Hello! Choose the option you want from 1 or 2.
