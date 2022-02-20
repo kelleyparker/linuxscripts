@@ -1,3 +1,4 @@
+#!/bin/bash
 ## Likely useless user-add create script
 echo Type the name of the user you want to create.
 read USER
