@@ -1,0 +1,4 @@
+#!/bin/bash
+#Used to change timezone of Ubuntu machine on /etc/timezone to America/Chicago as I live in the US Central Time Zone
+
+echo 'America/Chicago' > /etc/timezone echo 'America/Chicago' > /etc/timezone; timedatectl | grep -i 'time zone'
