@@ -1,4 +1,8 @@
 #!/bin/bash
+
+### Still need to tidy up configuring PermitRootLogin yes instead of simply appending, for text file neatness.
+
+
 ### Create backup
 sudo cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.bak
 
