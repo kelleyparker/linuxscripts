@@ -1,0 +1,13 @@
+%pre --log=/tmp/kickstart_pre.log
+
+echo "Currently mounted partitions"
+df -Th
+
+echo "=============================="
+echo "Available memory"
+free -m
+echo "=============================="
+echo "Kickstart pre install script completed at: `date`"
+echo "=============================="
+
+%end
