@@ -1,0 +1,13 @@
+%post --log=/var/log/kickstart_post.log
+
+echo "Currently mounted partitions"
+df -Th
+
+echo "=============================="
+echo "Available memory"
+free -m
+echo "=============================="
+echo "Kickstart post install script completed at: `date`"
+echo "=============================="
+
+%end
