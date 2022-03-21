@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ### Still need to tidy up configuring PermitRootLogin yes instead of simply appending, for text file neatness.
+### Used in test machines in home environment, not intended for production usage (notably the PermitRootLogin yes)
 
 
 ### Create backup
