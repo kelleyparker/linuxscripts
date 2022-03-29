@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Here is a list of all volume groups on your machine:"
+echo "Here is a list of all logical volumes inside of volume groups on your machine:"
 fdiskOutput=sudo fdisk -l | grep vg_ | awk '{print $2}' | cut -d: -f1
 echo $fdiskOutput
 
