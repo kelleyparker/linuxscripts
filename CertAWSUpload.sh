@@ -16,7 +16,7 @@ cp *.jks "$temp_dir"
 cp *.txt "$temp_dir"
 
 # Create the zip file
-zip_file="FOR_TRANSFER-$type.zip"
+zip_file="FOR_TRANSFER-$suffix.zip"
 zip -r "$zip_file" "$temp_dir"
 
 # Clean up temporary directory
